@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-@dataclass(frozen=True)
+@dataclass
 class LLM:
     """
     Represents the master table for LLMS which specifies names and versions.

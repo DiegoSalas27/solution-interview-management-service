@@ -1,7 +1,7 @@
 from dataclasses import dataclass
-from domain.entities.simulation_configuration import SimulationConfiguration
+from domain.value_objects.simulation_configuration import SimulationConfiguration
 
-@dataclass(frozen=True)
+@dataclass
 class IntervewSimulation:
     """
     InterviewSimulation entity encapsultates all data attributes required to initiate interviews 
