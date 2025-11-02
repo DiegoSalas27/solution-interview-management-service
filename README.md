@@ -1,1 +1,3 @@
-"# solution-interview-management-service" 
+# Interview Management Service
+
+The interview Manager Service uses LLM models from Open API GPT-4o and Claude Sonnet 4.x to initiate interviews leveraging configuration inputs received via API calls that dictate which model to use. Client responses include meta-data used internally to perform health checks on LLMs and switch to secondary LLMs which are available and are expected to have lower latency.
